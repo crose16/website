@@ -1,0 +1,85 @@
+
+/*TODO: Add your styles */
+
+body {
+     color:#06202B;
+     margin:0;
+     text-align: center;
+     font-family: "Oswald", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #ffffff;
+    background-color: #121212;
+  }
+}
+
+h1 {
+    color: #06202B;
+    font-weight: bold;
+    margin:50px auto 0 auto;
+    font-family: 'Cookie', cursive;
+}
+
+  h2 {
+    text-align: center;
+    font-family: "Oswald", Playfair;
+    padding-bottom: 10px;
+
+  }
+
+  h3 {
+    text-align: center;
+    font-family: "Oswald", Playfair;
+
+  }
+
+  p {
+    line-height: 2;
+  }
+
+
+.top-container {
+    text-align: center;
+    background-color: #077A7D;
+    position: relative;
+    padding-top: 20px;
+}
+
+.middle-container {
+    text-align: center;
+    margin : 10px 0 px 0px 10px;
+    padding: 50px 0px 20px 20px;
+    background-color: #F5EEDD;
+  }
+
+.bottom-container {
+    background-color: #077A7D;
+    padding: 40px 20px 20px 20px;
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 5px 20px;
+}
+
+.fa-github {
+    background: #212121;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
